@@ -1,6 +1,6 @@
 # istio-
 
-Configure Access to Open5Gs dashboard
+-
 cat <<EOF | sudo tee open5gs-webui-gateway.yaml 
 apiVersion: networking.istio.io/v1alpha3
 kind: Gateway
